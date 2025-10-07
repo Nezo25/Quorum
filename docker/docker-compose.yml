@@ -1,0 +1,13 @@
+
+services:
+  mysql:
+    image: mysql:latest
+    ports:
+      - "3307:3306"
+    expose:
+      - "3306"
+    environment:
+      MYSQL_USER: Enzo
+      MYSQL_PASSWORD: En648213!
+      MYSQL_DATABASE: mydb
+      MYSQL_ROOT_PASSWORD: En648213!
